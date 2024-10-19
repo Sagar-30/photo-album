@@ -1,0 +1,116 @@
+.maintitle {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    background-color: #f8f9fa;       
+    padding: 16px 24px;              
+    border-radius: 8px;              
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin:1rem;
+  }
+  
+  .maintitle h2 {
+    margin: 0;                       
+    font-size: 1.5rem;               
+    color: #333;                     
+  }
+  
+    
+  .cancel {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel:hover {
+    background-color: #d32f2f; 
+}
+
+.add {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add:hover {
+    background-color: #388E3C; 
+}
+  
+
+  .albumForm {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .albumForm h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .albumForm form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .albumForm input {
+    flex-grow: 1;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .albumForm input:focus {
+    border-color: #007bff;
+  }
+  
+  .albumForm button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .albumForm button:nth-child(2) {
+    background-color: #d9534f; /* Red color for 'Clear' */
+  }
+  
+  .albumForm button:nth-child(2):hover {
+    background-color: #c9302c;
+  }
+  
+  .albumForm button:nth-child(3) {
+    background-color: #0275d8; /* Blue color for 'Create' */
+  }
+  
+  .albumForm button:nth-child(3):hover {
+    background-color: #025aa5;
+  }
+  

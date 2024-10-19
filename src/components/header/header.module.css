@@ -1,0 +1,14 @@
+.mainHeader{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  width:100vw;
+  height:6rem;
+  background-color: rgb(204, 204, 248);
+  overflow:hidden;
+}
+.mainHeader img{
+    height: 4rem;
+    width: auto;
+    margin: 1rem;
+}

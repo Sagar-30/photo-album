@@ -114,3 +114,80 @@
     background-color: #025aa5;
   }
   
+
+  .imageForm {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageForm h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .imageForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imageForm input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .imageForm input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .imageForm button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1; /* Make both buttons take equal space */
+  }
+  
+  .imageForm button:first-of-type {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .imageForm button:first-of-type:hover {
+    background-color: #d32f2f;
+  }
+  
+  .imageForm button:last-of-type {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .imageForm button:last-of-type:hover {
+    background-color: #0056b3;
+  }
+
+  
+  .goBackImg{
+    width:2rem;
+    height:auto;
+    cursor: pointer;
+  }

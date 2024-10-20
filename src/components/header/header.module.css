@@ -11,4 +11,8 @@
     height: 4rem;
     width: auto;
     margin: 1rem;
+    cursor:pointer
+}
+h2{
+  cursor: pointer;
 }
